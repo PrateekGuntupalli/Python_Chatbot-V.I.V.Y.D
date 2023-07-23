@@ -1,0 +1,32 @@
+2022-09-23 16:25:13:wordhoard.dictionary:ERROR: An IndexError occurred in the following code segment:
+2022-09-23 16:25:13:wordhoard.dictionary:ERROR:   File "C:\Users\Sravanthi Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\wordhoard\dictionary.py", line 319, in _query_merriam_webster
+    definition_entries = definition_container.find_all('span', {'class': 'sb-0'})[0]
+
+2022-09-23 16:25:49:wordhoard.dictionary:ERROR: An IndexError occurred in the following code segment:
+2022-09-23 16:25:49:wordhoard.dictionary:ERROR:   File "C:\Users\Sravanthi Prasad\AppData\Local\Programs\Python\Python310\lib\site-packages\wordhoard\dictionary.py", line 319, in _query_merriam_webster
+    definition_entries = definition_container.find_all('span', {'class': 'sb-0'})[0]
+
+2022-09-29 14:21:46:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-09-29 14:21:46:wordhoard.utilities.basic_soup:ERROR: Response Status Code: 404
+2022-09-29 14:21:46:wordhoard.utilities.basic_soup:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2022-09-29 14:21:46:wordhoard.utilities.basic_soup:INFO: Requested URL: https://www.merriam-webster.com/dictionary/meaning meaning
+2022-09-29 14:21:46:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-09-29 14:21:46:wordhoard.dictionary:INFO: Merriam-webster.com has no definition reference for the word meaning meaning
+2022-09-29 14:21:47:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-09-29 14:21:47:wordhoard.utilities.basic_soup:ERROR: Response Status Code: 404
+2022-09-29 14:21:47:wordhoard.utilities.basic_soup:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2022-09-29 14:21:47:wordhoard.utilities.basic_soup:INFO: Requested URL: https://www.synonym.com/synonyms/meaning meaning
+2022-09-29 14:21:47:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-09-29 14:21:47:wordhoard.dictionary:INFO: Synonym.com had no definition reference for the word meaning meaning
+2022-10-02 16:26:42:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-10-02 16:26:42:wordhoard.utilities.basic_soup:ERROR: Response Status Code: 404
+2022-10-02 16:26:42:wordhoard.utilities.basic_soup:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2022-10-02 16:26:42:wordhoard.utilities.basic_soup:INFO: Requested URL: https://www.merriam-webster.com/dictionary/television television television
+2022-10-02 16:26:42:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-10-02 16:26:42:wordhoard.dictionary:INFO: Merriam-webster.com has no definition reference for the word television television television
+2022-10-02 16:26:43:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-10-02 16:26:43:wordhoard.utilities.basic_soup:ERROR: Response Status Code: 404
+2022-10-02 16:26:43:wordhoard.utilities.basic_soup:INFO: The HTTP 404 Not Found status code means that the file or page that the was requested was not found on the server
+2022-10-02 16:26:43:wordhoard.utilities.basic_soup:INFO: Requested URL: https://www.synonym.com/synonyms/television television television
+2022-10-02 16:26:43:wordhoard.utilities.basic_soup:INFO: --------------------------------------------------------------------------------
+2022-10-02 16:26:43:wordhoard.dictionary:INFO: Synonym.com had no definition reference for the word television television television
